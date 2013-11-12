@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24FC1B041832330200BDAF3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FC1B031832330200BDAF3E /* Foundation.framework */; };
+		24FC1B061832330200BDAF3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FC1B051832330200BDAF3E /* CoreGraphics.framework */; };
+		24FC1B081832330200BDAF3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FC1B071832330200BDAF3E /* UIKit.framework */; };
+		24FC1B0E1832330200BDAF3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24FC1B0C1832330200BDAF3E /* InfoPlist.strings */; };
+		24FC1B101832330200BDAF3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC1B0F1832330200BDAF3E /* main.m */; };
+		24FC1B141832330200BDAF3E /* DSMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC1B131832330200BDAF3E /* DSMAppDelegate.m */; };
+		24FC1B171832330200BDAF3E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FC1B151832330200BDAF3E /* Main_iPhone.storyboard */; };
+		24FC1B1A1832330200BDAF3E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FC1B181832330200BDAF3E /* Main_iPad.storyboard */; };
+		24FC1B1D1832330200BDAF3E /* DSMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC1B1C1832330200BDAF3E /* DSMViewController.m */; };
+		24FC1B1F1832330200BDAF3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FC1B1E1832330200BDAF3E /* Images.xcassets */; };
+		24FC1B261832330200BDAF3E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FC1B251832330200BDAF3E /* XCTest.framework */; };
+		24FC1B271832330200BDAF3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FC1B031832330200BDAF3E /* Foundation.framework */; };
+		24FC1B281832330200BDAF3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FC1B071832330200BDAF3E /* UIKit.framework */; };
+		24FC1B301832330200BDAF3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24FC1B2E1832330200BDAF3E /* InfoPlist.strings */; };
+		24FC1B321832330200BDAF3E /* OlaMundoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FC1B311832330200BDAF3E /* OlaMundoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24FC1B291832330200BDAF3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24FC1AF81832330200BDAF3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24FC1AFF1832330200BDAF3E;
+			remoteInfo = OlaMundo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24FC1B001832330200BDAF3E /* OlaMundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlaMundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FC1B031832330200BDAF3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24FC1B051832330200BDAF3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24FC1B071832330200BDAF3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24FC1B0B1832330200BDAF3E /* OlaMundo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OlaMundo-Info.plist"; sourceTree = "<group>"; };
+		24FC1B0D1832330200BDAF3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24FC1B0F1832330200BDAF3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24FC1B111832330200BDAF3E /* OlaMundo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OlaMundo-Prefix.pch"; sourceTree = "<group>"; };
+		24FC1B121832330200BDAF3E /* DSMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSMAppDelegate.h; sourceTree = "<group>"; };
+		24FC1B131832330200BDAF3E /* DSMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSMAppDelegate.m; sourceTree = "<group>"; };
+		24FC1B161832330200BDAF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		24FC1B191832330200BDAF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		24FC1B1B1832330200BDAF3E /* DSMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSMViewController.h; sourceTree = "<group>"; };
+		24FC1B1C1832330200BDAF3E /* DSMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSMViewController.m; sourceTree = "<group>"; };
+		24FC1B1E1832330200BDAF3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		24FC1B241832330200BDAF3E /* OlaMundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlaMundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FC1B251832330200BDAF3E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		24FC1B2D1832330200BDAF3E /* OlaMundoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OlaMundoTests-Info.plist"; sourceTree = "<group>"; };
+		24FC1B2F1832330200BDAF3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24FC1B311832330200BDAF3E /* OlaMundoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OlaMundoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24FC1AFD1832330200BDAF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FC1B061832330200BDAF3E /* CoreGraphics.framework in Frameworks */,
+				24FC1B081832330200BDAF3E /* UIKit.framework in Frameworks */,
+				24FC1B041832330200BDAF3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FC1B211832330200BDAF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FC1B261832330200BDAF3E /* XCTest.framework in Frameworks */,
+				24FC1B281832330200BDAF3E /* UIKit.framework in Frameworks */,
+				24FC1B271832330200BDAF3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24FC1AF71832330200BDAF3E = {
+			isa = PBXGroup;
+			children = (
+				24FC1B091832330200BDAF3E /* OlaMundo */,
+				24FC1B2B1832330200BDAF3E /* OlaMundoTests */,
+				24FC1B021832330200BDAF3E /* Frameworks */,
+				24FC1B011832330200BDAF3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24FC1B011832330200BDAF3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24FC1B001832330200BDAF3E /* OlaMundo.app */,
+				24FC1B241832330200BDAF3E /* OlaMundoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24FC1B021832330200BDAF3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24FC1B031832330200BDAF3E /* Foundation.framework */,
+				24FC1B051832330200BDAF3E /* CoreGraphics.framework */,
+				24FC1B071832330200BDAF3E /* UIKit.framework */,
+				24FC1B251832330200BDAF3E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24FC1B091832330200BDAF3E /* OlaMundo */ = {
+			isa = PBXGroup;
+			children = (
+				24FC1B121832330200BDAF3E /* DSMAppDelegate.h */,
+				24FC1B131832330200BDAF3E /* DSMAppDelegate.m */,
+				24FC1B151832330200BDAF3E /* Main_iPhone.storyboard */,
+				24FC1B181832330200BDAF3E /* Main_iPad.storyboard */,
+				24FC1B1B1832330200BDAF3E /* DSMViewController.h */,
+				24FC1B1C1832330200BDAF3E /* DSMViewController.m */,
+				24FC1B1E1832330200BDAF3E /* Images.xcassets */,
+				24FC1B0A1832330200BDAF3E /* Supporting Files */,
+			);
+			path = OlaMundo;
+			sourceTree = "<group>";
+		};
+		24FC1B0A1832330200BDAF3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24FC1B0B1832330200BDAF3E /* OlaMundo-Info.plist */,
+				24FC1B0C1832330200BDAF3E /* InfoPlist.strings */,
+				24FC1B0F1832330200BDAF3E /* main.m */,
+				24FC1B111832330200BDAF3E /* OlaMundo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24FC1B2B1832330200BDAF3E /* OlaMundoTests */ = {
+			isa = PBXGroup;
+			children = (
+				24FC1B311832330200BDAF3E /* OlaMundoTests.m */,
+				24FC1B2C1832330200BDAF3E /* Supporting Files */,
+			);
+			path = OlaMundoTests;
+			sourceTree = "<group>";
+		};
+		24FC1B2C1832330200BDAF3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24FC1B2D1832330200BDAF3E /* OlaMundoTests-Info.plist */,
+				24FC1B2E1832330200BDAF3E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24FC1AFF1832330200BDAF3E /* OlaMundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24FC1B351832330200BDAF3E /* Build configuration list for PBXNativeTarget "OlaMundo" */;
+			buildPhases = (
+				24FC1AFC1832330200BDAF3E /* Sources */,
+				24FC1AFD1832330200BDAF3E /* Frameworks */,
+				24FC1AFE1832330200BDAF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlaMundo;
+			productName = OlaMundo;
+			productReference = 24FC1B001832330200BDAF3E /* OlaMundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24FC1B231832330200BDAF3E /* OlaMundoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24FC1B381832330200BDAF3E /* Build configuration list for PBXNativeTarget "OlaMundoTests" */;
+			buildPhases = (
+				24FC1B201832330200BDAF3E /* Sources */,
+				24FC1B211832330200BDAF3E /* Frameworks */,
+				24FC1B221832330200BDAF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24FC1B2A1832330200BDAF3E /* PBXTargetDependency */,
+			);
+			name = OlaMundoTests;
+			productName = OlaMundoTests;
+			productReference = 24FC1B241832330200BDAF3E /* OlaMundoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24FC1AF81832330200BDAF3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DSM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "DSM Brasil Produtos Nutricionais SA";
+				TargetAttributes = {
+					24FC1B231832330200BDAF3E = {
+						TestTargetID = 24FC1AFF1832330200BDAF3E;
+					};
+				};
+			};
+			buildConfigurationList = 24FC1AFB1832330200BDAF3E /* Build configuration list for PBXProject "OlaMundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24FC1AF71832330200BDAF3E;
+			productRefGroup = 24FC1B011832330200BDAF3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24FC1AFF1832330200BDAF3E /* OlaMundo */,
+				24FC1B231832330200BDAF3E /* OlaMundoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24FC1AFE1832330200BDAF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FC1B1A1832330200BDAF3E /* Main_iPad.storyboard in Resources */,
+				24FC1B1F1832330200BDAF3E /* Images.xcassets in Resources */,
+				24FC1B171832330200BDAF3E /* Main_iPhone.storyboard in Resources */,
+				24FC1B0E1832330200BDAF3E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FC1B221832330200BDAF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FC1B301832330200BDAF3E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24FC1AFC1832330200BDAF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FC1B101832330200BDAF3E /* main.m in Sources */,
+				24FC1B1D1832330200BDAF3E /* DSMViewController.m in Sources */,
+				24FC1B141832330200BDAF3E /* DSMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FC1B201832330200BDAF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FC1B321832330200BDAF3E /* OlaMundoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24FC1B2A1832330200BDAF3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24FC1AFF1832330200BDAF3E /* OlaMundo */;
+			targetProxy = 24FC1B291832330200BDAF3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24FC1B0C1832330200BDAF3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24FC1B0D1832330200BDAF3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24FC1B151832330200BDAF3E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24FC1B161832330200BDAF3E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		24FC1B181832330200BDAF3E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24FC1B191832330200BDAF3E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		24FC1B2E1832330200BDAF3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24FC1B2F1832330200BDAF3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24FC1B331832330200BDAF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24FC1B341832330200BDAF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24FC1B361832330200BDAF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaMundo/OlaMundo-Prefix.pch";
+				INFOPLIST_FILE = "OlaMundo/OlaMundo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24FC1B371832330200BDAF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaMundo/OlaMundo-Prefix.pch";
+				INFOPLIST_FILE = "OlaMundo/OlaMundo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		24FC1B391832330200BDAF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OlaMundo.app/OlaMundo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaMundo/OlaMundo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OlaMundoTests/OlaMundoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		24FC1B3A1832330200BDAF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OlaMundo.app/OlaMundo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaMundo/OlaMundo-Prefix.pch";
+				INFOPLIST_FILE = "OlaMundoTests/OlaMundoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24FC1AFB1832330200BDAF3E /* Build configuration list for PBXProject "OlaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FC1B331832330200BDAF3E /* Debug */,
+				24FC1B341832330200BDAF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24FC1B351832330200BDAF3E /* Build configuration list for PBXNativeTarget "OlaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FC1B361832330200BDAF3E /* Debug */,
+				24FC1B371832330200BDAF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24FC1B381832330200BDAF3E /* Build configuration list for PBXNativeTarget "OlaMundoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FC1B391832330200BDAF3E /* Debug */,
+				24FC1B3A1832330200BDAF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24FC1AF81832330200BDAF3E /* Project object */;
+}
