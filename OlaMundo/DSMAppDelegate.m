@@ -7,12 +7,19 @@
 //
 
 #import "DSMAppDelegate.h"
+#import "DSMMeuPrimeiroViewController.h"
 
 @implementation DSMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //Cria o controller
+    DSMMeuPrimeiroViewController *meuPrimeiroViewController = [[DSMMeuPrimeiroViewController alloc] init];
+    //Cria o navigation controller e o inicializa com o controller desejado
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:meuPrimeiroViewController];
+    //Deixa o navigation controller como principal
+    self.window.rootViewController = nav;
     return YES;
 }
 							
@@ -41,6 +48,19 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - rotation iOS 6
+-(NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
+    //Esta e a implementacao padrao
+    BOOL iPad = [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad;
+    if(iPad){
+        //iPad suporta todas as orientacoes
+        return UIInterfaceOrientationMaskAll;
+    }else{
+        //iPhone suporta todas menos de ponta cabeca
+        return UIInterfaceOrientationMaskAllButUpsideDown;
+    }
 }
 
 @end
